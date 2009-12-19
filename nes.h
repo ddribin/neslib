@@ -30,7 +30,9 @@
 	oamdata		:= $2004
 	ppuscroll	:= $2005
 	ppuaddr		:= $2006
-	ppudata		:= $2007
+	oamdma		:= $4014
+
+	;; APU Registers
 
 	sq1_vol		:= $4000
 	sq1_sweep	:= $4001
@@ -57,8 +59,6 @@
 	dmc_start	:= $4012
 	dmc_len		:= $4013
 	
-	oamdma		:= $4014
-	
 	snd_chn		:= $4015
 	snd_chn_sq1_len_enable = bit2mask(0)
 	snd_chn_sq2_len_enable = bit2mask(1)
@@ -68,6 +68,8 @@
 	apuframe	:= $4017
 	apuframe_mode_5_step = bit2mask(7)
 	apuframe_irq_disable = bit2mask(6)
+
+	;; Controllers
 
 	joy1	:= $4016
 	joy2	:= $4017
