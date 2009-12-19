@@ -1,5 +1,4 @@
 	
-	.include "ines.h"
 	
 .define	bit2mask(bitnum) (1 << bitnum)
 .define bits2mask(bits, bitnum) (bits << bitnum)
