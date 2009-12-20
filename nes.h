@@ -96,12 +96,17 @@
 	attribute_2_base	:= $2bc0
 	nametable_3_base	:= $2c00
 	attribute_3_base	:= $2fc0
+	attribute_size		= $40
 
 	palette_bg_base		:= $3f00
 	palette_sprite_base	:= $3f10
 
 	;; Some helpful values
 	sprite_offscreen = $fe
+	nametable_width = 256
+	nametable_height = 240
+	nametable_tile_width = 32
+	nametable_tile_height = 30
 
 	;; Common color values
 	color_black 	= $0f
