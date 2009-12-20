@@ -89,7 +89,7 @@
 	pattern_table_0		:= $0000
 	pattern_table_1		:= $1000
 	nametable_0_base	:= $2000
-	attribute_0_base	:= $2c30
+	attribute_0_base	:= $23c0
 	nametable_1_base	:= $2400
 	attribute_1_base	:= $27c0
 	nametable_2_base	:= $2800
